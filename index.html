@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Snake game</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="score">0</div>
+        <canvas id="snake" width="400" height="400"></canvas>
+        <script src="snake.js"></script>
+        <style>
+            #snake{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+            #score{
+                text-align: center;
+                font-size: 70px;
+            }
+        </style>
+    </body>
+</html>
